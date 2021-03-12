@@ -90,10 +90,10 @@ public class Item {
 					output += "<td>" + itemPrice + "</td>";
 					output += "<td>" + itemDesc + "</td>";
 					// buttons
-					output += "<td>" + "<form method='post' action='items.jsp'>"
+					output += "<td>" + "<form method='post' action='Tests.jsp'>"
 							+ "<input name='btnUpdate' type='submit' value='Update'></td>"
 							+ "<input name='update_itemID' type='hidden' value='" + itemID + "'>" + "</form>" + "<td>"
-							+ "<form method='post' action='items.jsp'>"
+							+ "<form method='post' action='Tests.jsp'>"
 							+ "<input name='btnRemove' type='submit' value='Remove'>"
 							+ "<input name='itemID' type='hidden' value='" + itemID + "'>" + "</form></td></tr>";
 				}
