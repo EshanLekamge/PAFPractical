@@ -84,7 +84,7 @@ if (request.getParameter("itemID") != null) {
 		out.print(session.getAttribute("statusMsg"));
 		%>
 	</h3>
-	<form method="post" action="items.jsp">
+	<form method="post" action="Tests.jsp">
 		Item code: <input name="itemCode" value="<%out.print(itemCode);%>"
 			type="text"><br> Item name: <input name="itemName"
 			value="<%out.print(itemName);%>" type="text"><br> Item
